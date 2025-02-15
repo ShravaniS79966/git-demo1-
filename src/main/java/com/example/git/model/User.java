@@ -1,9 +1,19 @@
 package com.example.git.model;
 
 public class User {
-    String username;
-    String password;
+    private int id;
+   private String username;
+    private String password;
     String email;
+
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getUsername() {
         return username;
